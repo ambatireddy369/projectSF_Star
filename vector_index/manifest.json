@@ -1,0 +1,11 @@
+{
+  "chunk_count": 81912,
+  "chunks_hash": "877d4251aa7cd90c5ceae65e69f425ebf49c648e489bfd7890aed3c8c517048c",
+  "embedding_backend": null,
+  "embedding_count": 0,
+  "embeddings_enabled": false,
+  "generated_from_hash": "a74a761d0ed52957bfb314b6afe772f3fb75c79d5614dd3dcab3e72b4bde397b",
+  "knowledge_source_count": 36,
+  "schema_version": 1,
+  "skill_count": 384
+}

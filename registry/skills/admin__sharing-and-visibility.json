@@ -1,0 +1,99 @@
+{
+  "category": "admin",
+  "chunk_ids": [
+    "028d1039b0056c5b5eed",
+    "077bf94a03266de7c5f5",
+    "09aad2dfd169bb0d6fdf",
+    "13c8aaa5c3ef669aa4da",
+    "2913365bf11315cb0d20",
+    "2f6a2cd79ab3c59a9528",
+    "2ff6a11b500c9318e3e5",
+    "3751770f1c9bf04663bc",
+    "3fe9bdd93d23eed8d49c",
+    "480382c98dc53481874e",
+    "4bd41d24b4a7de46da57",
+    "63b1f0ccecbe698e73ea",
+    "67de58abaab5c245f54e",
+    "71df4aa15001220280ad",
+    "749ea2fbc30c6c9314cb",
+    "7858be1f8a1db0f5f254",
+    "82ac00e1d60265d5f690",
+    "876bd791539db25c0cad",
+    "8909403b92fcb7e7200a",
+    "9659d5f97e667e086868",
+    "9a2fe9aa3e5a9eeaf8b1",
+    "9d23a01a2eb6b0208139",
+    "9d2af859513b9e719e23",
+    "9f9237c57e20b117bc8d",
+    "a45c2abd412da0bcb8c5",
+    "a9641dd4801c7402e8f1",
+    "aa31304fda774d6d1e42",
+    "aae8b653e7ea1103b89c",
+    "aafe908ccb5d10e30f45",
+    "b32eb03cb6ba2227a775",
+    "b3873bfa802f06d1a8ee",
+    "baf7b68bf18eb04e75fb",
+    "bb3cd5f7bf68f0d2c3b1",
+    "bd0ed784581d78fe5f4d",
+    "bd7e02665dd8f097db9c",
+    "bf25ee0a1ef879ae9670",
+    "bf6e1db3b8769a18684f",
+    "cc4baeca61c7ec0b1079",
+    "d10cb9c9a03c4166f2d0",
+    "d4f97d0c3d05039d2bcc",
+    "d8f771c0d0fc299c3df2",
+    "dc84d9bf6109e12e78e6",
+    "e83026b566956f2e87de",
+    "eb9b5ffa6bddad07617e",
+    "f6c884727a836236ef72",
+    "f746efec732f1c18d2d8",
+    "f8e18a2fc0ad2c618bb1",
+    "fae84842c07a5de55896",
+    "fcbe5f11659853eec4f0",
+    "fcec81050d354a8d99bf",
+    "fdd7afc42b46d703cd7a"
+  ],
+  "content_hash": "f06686bed5e14d2385170c69c7bdc75196ae4706adbb608c9d8a248dca11604c",
+  "dependencies": [],
+  "description": "Use when designing, auditing, or troubleshooting Salesforce record access. Triggers: 'OWD', 'role hierarchy', 'sharing rule', 'manual sharing', 'why can't user see record', 'why can user see too much'. NOT for object or field permissions - use permission and FLS skills for that.",
+  "file_location": "skills/admin/sharing-and-visibility",
+  "id": "admin/sharing-and-visibility",
+  "inputs": [
+    "record access requirement",
+    "ownership model",
+    "exception scenarios"
+  ],
+  "name": "sharing-and-visibility",
+  "official_sources": [
+    "Salesforce Well-Architected Overview \u2014 record-access and governance framing",
+    "Object Reference \u2014 relationship semantics that affect access design reasoning",
+    "Metadata API Developer Guide \u2014 sharing-related metadata deployment context"
+  ],
+  "outputs": [
+    "sharing model recommendation",
+    "record access findings",
+    "visibility troubleshooting guidance"
+  ],
+  "references": [
+    "skills/admin/sharing-and-visibility/references/examples.md",
+    "skills/admin/sharing-and-visibility/references/gotchas.md",
+    "skills/admin/sharing-and-visibility/references/llm-anti-patterns.md",
+    "skills/admin/sharing-and-visibility/references/well-architected.md"
+  ],
+  "scripts": [
+    "skills/admin/sharing-and-visibility/scripts/check_sharing_model.py"
+  ],
+  "tags": [
+    "sharing",
+    "owd",
+    "role-hierarchy",
+    "sharing-rules",
+    "record-access"
+  ],
+  "templates": [
+    "skills/admin/sharing-and-visibility/templates/sharing-model-template.md"
+  ],
+  "updated": "2026-03-13",
+  "vector_embedding": null,
+  "version": "1.0.0"
+}

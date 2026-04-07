@@ -1,0 +1,2482 @@
+{
+  "queries": [
+    {
+      "query": "partner user data visibility role hierarchy PRM sharing",
+      "domain": "data",
+      "expected_skill": "data/partner-data-access-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "partner community user cannot see deal registration records",
+      "domain": "data",
+      "expected_skill": "data/partner-data-access-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "configure SEO for Experience Cloud site page titles sitemap",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-seo-settings",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a Lightning app and add tabs for custom objects",
+      "domain": "admin",
+      "expected_skill": "admin/app-and-tab-configuration",
+      "top_k": 3
+    },
+    {
+      "query": "how do I add a new user in Salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/user-management",
+      "top_k": 3
+    },
+    {
+      "query": "steps to create a new custom object in Salesforce Setup",
+      "domain": "admin",
+      "expected_skill": "admin/object-creation-and-design",
+      "top_k": 3
+    },
+    {
+      "query": "how do I add a new custom field to a Salesforce object and set FLS",
+      "domain": "admin",
+      "expected_skill": "admin/custom-field-creation",
+      "top_k": 3
+    },
+    {
+      "query": "permission sets least privilege",
+      "domain": "admin",
+      "expected_skill": "admin/permission-sets-vs-profiles",
+      "top_k": 3
+    },
+    {
+      "query": "renderedCallback memory leak",
+      "domain": "lwc",
+      "expected_skill": "lwc/lifecycle-hooks",
+      "top_k": 3
+    },
+    {
+      "query": "fault connector rollback",
+      "domain": "flow",
+      "expected_skill": "flow/fault-handling",
+      "top_k": 3
+    },
+    {
+      "query": "with user mode stripinaccessible",
+      "domain": "apex",
+      "expected_skill": "apex/soql-security",
+      "top_k": 3
+    },
+    {
+      "query": "approval process routing approver",
+      "domain": "admin",
+      "expected_skill": "admin/approval-processes",
+      "top_k": 3
+    },
+    {
+      "query": "deployment release change set rollback",
+      "domain": "admin",
+      "expected_skill": "admin/change-management-and-deployment",
+      "top_k": 3
+    },
+    {
+      "query": "OAuth connected app named credential",
+      "domain": "admin",
+      "expected_skill": "admin/connected-apps-and-auth",
+      "top_k": 3
+    },
+    {
+      "query": "data loader bulk api upsert external id",
+      "domain": "admin",
+      "expected_skill": "admin/data-import-and-management",
+      "top_k": 3
+    },
+    {
+      "query": "duplicate rule matching rule merge",
+      "domain": "admin",
+      "expected_skill": "admin/duplicate-management",
+      "top_k": 3
+    },
+    {
+      "query": "CRM analytics dashboard dataset",
+      "domain": "admin",
+      "expected_skill": "admin/einstein-analytics-basics",
+      "top_k": 3
+    },
+    {
+      "query": "email alert template merge field notification",
+      "domain": "admin",
+      "expected_skill": "admin/email-templates-and-alerts",
+      "top_k": 3
+    },
+    {
+      "query": "record triggered flow automation",
+      "domain": "admin",
+      "expected_skill": "admin/flow-for-admins",
+      "top_k": 3
+    },
+    {
+      "query": "formula field cross object compile size",
+      "domain": "admin",
+      "expected_skill": "admin/formula-fields",
+      "top_k": 3
+    },
+    {
+      "query": "record type page layout dynamic forms",
+      "domain": "admin",
+      "expected_skill": "admin/record-types-and-page-layouts",
+      "top_k": 3
+    },
+    {
+      "query": "report filter dashboard subscription",
+      "domain": "admin",
+      "expected_skill": "admin/reports-and-dashboards",
+      "top_k": 3
+    },
+    {
+      "query": "sandbox refresh environment strategy",
+      "domain": "admin",
+      "expected_skill": "admin/sandbox-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "sharing rules OWD role hierarchy record access",
+      "domain": "admin",
+      "expected_skill": "admin/sharing-and-visibility",
+      "top_k": 3
+    },
+    {
+      "query": "validation rule bypass formula data quality",
+      "domain": "admin",
+      "expected_skill": "admin/validation-rules",
+      "top_k": 3
+    },
+    {
+      "query": "governor limit cpu time bulkification queueable",
+      "domain": "apex",
+      "expected_skill": "apex/governor-limits",
+      "top_k": 3
+    },
+    {
+      "query": "swallowed exception AuraHandledException DmlException",
+      "domain": "apex",
+      "expected_skill": "apex/exception-handling",
+      "top_k": 3
+    },
+    {
+      "query": "queueable vs batch future schedulable",
+      "domain": "apex",
+      "expected_skill": "apex/async-apex",
+      "top_k": 3
+    },
+    {
+      "query": "SeeAllData test data factory HttpCalloutMock",
+      "domain": "apex",
+      "expected_skill": "apex/test-class-standards",
+      "top_k": 3
+    },
+    {
+      "query": "Named Credential uncommitted work pending HttpRequest timeout",
+      "domain": "apex",
+      "expected_skill": "apex/callouts-and-http-integrations",
+      "top_k": 3
+    },
+    {
+      "query": "inherited sharing stripInaccessible CRUD FLS",
+      "domain": "apex",
+      "expected_skill": "apex/apex-security-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "EventBus publish CDC replay ID",
+      "domain": "apex",
+      "expected_skill": "apex/platform-events-apex",
+      "top_k": 3
+    },
+    {
+      "query": "service layer selector domain dependency injection",
+      "domain": "apex",
+      "expected_skill": "apex/apex-design-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "System.debug logging framework AsyncApexJob",
+      "domain": "apex",
+      "expected_skill": "apex/debug-and-logging",
+      "top_k": 3
+    },
+    {
+      "query": "Database.Stateful batch scope AsyncApexJob",
+      "domain": "apex",
+      "expected_skill": "apex/batch-apex-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "custom Iterable Iterator batch Apex start method lazy evaluation",
+      "domain": "apex",
+      "expected_skill": "apex/custom-iterators-and-iterables",
+      "top_k": 3
+    },
+    {
+      "query": "RestResource RestContext status codes versioning",
+      "domain": "apex",
+      "expected_skill": "apex/apex-rest-services",
+      "top_k": 3
+    },
+    {
+      "query": "StubProvider Test.createStub HttpCalloutMock",
+      "domain": "apex",
+      "expected_skill": "apex/apex-mocking-and-stubs",
+      "top_k": 3
+    },
+    {
+      "query": "InvocableMethod bulk safe flow apex action",
+      "domain": "apex",
+      "expected_skill": "apex/invocable-methods",
+      "top_k": 3
+    },
+    {
+      "query": "Cache.Org Cache.Session cache aside invalidation",
+      "domain": "apex",
+      "expected_skill": "apex/platform-cache",
+      "top_k": 3
+    },
+    {
+      "query": "Limits.getCpuTime heap limit string concatenation regex",
+      "domain": "apex",
+      "expected_skill": "apex/apex-cpu-and-heap-optimization",
+      "top_k": 3
+    },
+    {
+      "query": "static boolean recursion guard trigger set of id",
+      "domain": "apex",
+      "expected_skill": "apex/recursive-trigger-prevention",
+      "top_k": 3
+    },
+    {
+      "query": "custom metadata type __mdt getInstance package",
+      "domain": "apex",
+      "expected_skill": "apex/custom-metadata-in-apex",
+      "top_k": 3
+    },
+    {
+      "query": "trigger handler recursion bypass",
+      "domain": "apex",
+      "expected_skill": "apex/trigger-framework",
+      "top_k": 3
+    },
+    {
+      "query": "GraphQL api vs REST connection pagination lightning graphql",
+      "domain": "integration",
+      "expected_skill": "integration/graphql-api-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce Connect external objects OData custom adapter",
+      "domain": "integration",
+      "expected_skill": "integration/salesforce-connect-external-objects",
+      "top_k": 3
+    },
+    {
+      "query": "client credentials JWT bearer connected app scope",
+      "domain": "integration",
+      "expected_skill": "integration/oauth-flows-and-connected-apps",
+      "top_k": 3
+    },
+    {
+      "query": "lookup rollup DLRS aggregate trigger",
+      "domain": "data",
+      "expected_skill": "data/roll-up-summary-alternatives",
+      "top_k": 3
+    },
+    {
+      "query": "SOSL Search.query FIND clause cross object search",
+      "domain": "data",
+      "expected_skill": "data/sosl-search-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "CurrencyIsoCode convertCurrency advanced currency management",
+      "domain": "data",
+      "expected_skill": "data/multi-currency-and-advanced-currency-management",
+      "top_k": 3
+    },
+    {
+      "query": "permission set group muting profile migration",
+      "domain": "security",
+      "expected_skill": "security/permission-set-groups-and-muting",
+      "top_k": 3
+    },
+    {
+      "query": "Health Check CSP Trusted Site clickjack CORS",
+      "domain": "security",
+      "expected_skill": "security/org-hardening-and-baseline-config",
+      "top_k": 3
+    },
+    {
+      "query": "Flow custom property editor configurationEditor inputVariables builderContext",
+      "domain": "lwc",
+      "expected_skill": "lwc/custom-property-editor-for-flow",
+      "top_k": 3
+    },
+    {
+      "query": "integration procedure HTTP action OmniStudio",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/integration-procedures",
+      "top_k": 3
+    },
+    {
+      "query": "custom permission bypass feature bundle architecture",
+      "domain": "admin",
+      "expected_skill": "admin/permission-set-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "wire service reactive parameter refresh apex",
+      "domain": "lwc",
+      "expected_skill": "lwc/wire-service-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "lightning web security innerhtml guest user",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-security",
+      "top_k": 3
+    },
+    {
+      "query": "flow bulkification collection update import",
+      "domain": "flow",
+      "expected_skill": "flow/flow-bulkification",
+      "top_k": 3
+    },
+    {
+      "query": "before save after save prior value recursion flow",
+      "domain": "flow",
+      "expected_skill": "flow/record-triggered-flow-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "omniscript step design save resume branching",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omniscript-design-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "mobile offline lwc ui graphql api navigation",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-offline-and-mobile",
+      "top_k": 3
+    },
+    {
+      "query": "lwc key index large list rerender",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-performance",
+      "top_k": 3
+    },
+    {
+      "query": "flow custom property editor builder context validate",
+      "domain": "flow",
+      "expected_skill": "flow/flow-custom-property-editors",
+      "top_k": 3
+    },
+    {
+      "query": "experience cloud screen flow lightning flow guest user",
+      "domain": "flow",
+      "expected_skill": "flow/flow-for-experience-cloud",
+      "top_k": 3
+    },
+    {
+      "query": "flow orchestration stages work items ownership",
+      "domain": "flow",
+      "expected_skill": "flow/orchestration-flows",
+      "top_k": 3
+    },
+    {
+      "query": "flow apex trigger process builder migration",
+      "domain": "admin",
+      "expected_skill": "admin/process-automation-selection",
+      "top_k": 3
+    },
+    {
+      "query": "dataraptor extract turbo extract transform load",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/dataraptor-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "omnistudio guest user dataraptor apex security",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-security",
+      "top_k": 3
+    },
+    {
+      "query": "agent topic boundary handoff topic selector",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agent-topic-design",
+      "top_k": 3
+    },
+    {
+      "query": "agent actions flow apex prompt action confirmation",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agent-actions",
+      "top_k": 3
+    },
+    {
+      "query": "custom metadata vs custom settings",
+      "domain": "admin",
+      "expected_skill": "admin/custom-metadata-types",
+      "top_k": 3
+    },
+    {
+      "query": "public list views too many compact layout mobile",
+      "domain": "admin",
+      "expected_skill": "admin/list-views-and-compact-layouts",
+      "top_k": 3
+    },
+    {
+      "query": "custom event not reaching parent use lms or api",
+      "domain": "lwc",
+      "expected_skill": "lwc/component-communication",
+      "top_k": 3
+    },
+    {
+      "query": "how do i test wire adapter in lwc jest",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-testing",
+      "top_k": 3
+    },
+    {
+      "query": "pagereference state not working navigationmixin currentpagereference",
+      "domain": "lwc",
+      "expected_skill": "lwc/navigation-and-routing",
+      "top_k": 3
+    },
+    {
+      "query": "keyboard navigation screen reader focus management lwc",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-accessibility",
+      "top_k": 3
+    },
+    {
+      "query": "lightning record edit form report validity field errors",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-forms-and-validation",
+      "top_k": 3
+    },
+    {
+      "query": "lightning datatable inline edit row actions infinite loading key field",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-data-table",
+      "top_k": 3
+    },
+    {
+      "query": "resourceUrl loadScript static resource salesforce lwc",
+      "domain": "lwc",
+      "expected_skill": "lwc/static-resources-in-lwc",
+      "top_k": 3
+    },
+    {
+      "query": "LightningModal toast confirm dialog focus trap",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-modal-and-overlay",
+      "top_k": 3
+    },
+    {
+      "query": "flow subflow input output variables reusable autolaunched",
+      "domain": "flow",
+      "expected_skill": "flow/subflows-and-reusability",
+      "top_k": 3
+    },
+    {
+      "query": "screen flow custom validation back button custom component",
+      "domain": "flow",
+      "expected_skill": "flow/screen-flows",
+      "top_k": 3
+    },
+    {
+      "query": "flow naming ownership version governance stale flows",
+      "domain": "flow",
+      "expected_skill": "flow/flow-governance",
+      "top_k": 3
+    },
+    {
+      "query": "schedule triggered flow batch apex idempotent",
+      "domain": "flow",
+      "expected_skill": "flow/scheduled-flows",
+      "top_k": 3
+    },
+    {
+      "query": "flow test tool fault path debug interview",
+      "domain": "flow",
+      "expected_skill": "flow/flow-testing",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up a global picklist value set shared across multiple objects",
+      "domain": "admin",
+      "expected_skill": "admin/picklist-and-value-sets",
+      "top_k": 3
+    },
+    {
+      "query": "dependent picklist controlling field setup",
+      "domain": "admin",
+      "expected_skill": "admin/picklist-and-value-sets",
+      "top_k": 3
+    },
+    {
+      "query": "how do I enable MFA for all users in my Salesforce org",
+      "domain": "admin",
+      "expected_skill": "admin/org-setup-and-configuration",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up and deploy My Domain in Salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/org-setup-and-configuration",
+      "top_k": 3
+    },
+    {
+      "query": "how do I add a quick action to a record page in Lightning Experience",
+      "domain": "admin",
+      "expected_skill": "admin/global-actions-and-quick-actions",
+      "top_k": 3
+    },
+    {
+      "query": "difference between global action and object specific quick action",
+      "domain": "admin",
+      "expected_skill": "admin/global-actions-and-quick-actions",
+      "top_k": 3
+    },
+    {
+      "query": "how do I automatically assign new leads to the right sales rep based on region",
+      "domain": "admin",
+      "expected_skill": "admin/assignment-rules",
+      "top_k": 3
+    },
+    {
+      "query": "cases are not being assigned to the correct queue when submitted via web form",
+      "domain": "admin",
+      "expected_skill": "admin/assignment-rules",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up automatic case escalation after SLA hours",
+      "domain": "admin",
+      "expected_skill": "admin/escalation-rules",
+      "top_k": 3
+    },
+    {
+      "query": "case is not escalating to manager after required time passed",
+      "domain": "admin",
+      "expected_skill": "admin/escalation-rules",
+      "top_k": 3
+    },
+    {
+      "query": "sharing recalculation taking too long after role change",
+      "domain": "admin",
+      "expected_skill": "admin/data-skew-and-sharing-performance",
+      "top_k": 3
+    },
+    {
+      "query": "how do I write user stories for a Salesforce implementation project",
+      "domain": "admin",
+      "expected_skill": "admin/requirements-gathering-for-sf",
+      "top_k": 3
+    },
+    {
+      "query": "how do I document the fields on my Salesforce objects",
+      "domain": "admin",
+      "expected_skill": "admin/data-model-documentation",
+      "top_k": 3
+    },
+    {
+      "query": "how do I write UAT test scripts for a Salesforce release",
+      "domain": "admin",
+      "expected_skill": "admin/uat-and-acceptance-criteria",
+      "top_k": 3
+    },
+    {
+      "query": "how do I plan user adoption for a Salesforce rollout",
+      "domain": "admin",
+      "expected_skill": "admin/change-management-and-training",
+      "top_k": 3
+    },
+    {
+      "query": "how to write a SOQL query with WHERE filter and ORDER BY",
+      "domain": "apex",
+      "expected_skill": "apex/soql-fundamentals",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a scratch org with sf CLI",
+      "domain": "apex",
+      "expected_skill": "apex/sf-cli-and-sfdx-essentials",
+      "top_k": 3
+    },
+    {
+      "query": "how do I write a package.xml to retrieve metadata from Salesforce",
+      "domain": "apex",
+      "expected_skill": "apex/metadata-api-and-package-xml",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up a debug log for a user",
+      "domain": "apex",
+      "expected_skill": "apex/debug-logs-and-developer-console",
+      "top_k": 3
+    },
+    {
+      "query": "junction object many to many relationship Salesforce",
+      "domain": "data",
+      "expected_skill": "data/data-model-design-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "data migration planning parent child sequence",
+      "domain": "data",
+      "expected_skill": "data/data-migration-planning",
+      "top_k": 3
+    },
+    {
+      "query": "data quality validation rules duplicate management",
+      "domain": "data",
+      "expected_skill": "data/data-quality-and-governance",
+      "top_k": 3
+    },
+    {
+      "query": "how to choose between Flow and Apex for automation",
+      "domain": "architect",
+      "expected_skill": "architect/solution-design-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "governor limits scalability planning org wide",
+      "domain": "architect",
+      "expected_skill": "architect/limits-and-scalability-planning",
+      "top_k": 3
+    },
+    {
+      "query": "when to use multiple Salesforce orgs vs single org",
+      "domain": "architect",
+      "expected_skill": "architect/multi-org-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "bulk api 2.0 large data loads batch",
+      "domain": "data",
+      "expected_skill": "data/bulk-api-and-large-data-loads",
+      "top_k": 3
+    },
+    {
+      "query": "archive old salesforce records big object",
+      "domain": "data",
+      "expected_skill": "data/data-archival-strategies",
+      "top_k": 3
+    },
+    {
+      "query": "how do I query a big object with async SOQL and composite index",
+      "domain": "data",
+      "expected_skill": "data/external-data-and-big-objects",
+      "top_k": 3
+    },
+    {
+      "query": "external object vs big object decision for high volume historical data",
+      "domain": "data",
+      "expected_skill": "data/external-data-and-big-objects",
+      "top_k": 3
+    },
+    {
+      "query": "slow soql query timeout index optimization",
+      "domain": "data",
+      "expected_skill": "data/soql-query-optimization",
+      "top_k": 3
+    },
+    {
+      "query": "salesforce org technical debt dead code audit",
+      "domain": "architect",
+      "expected_skill": "architect/technical-debt-assessment",
+      "top_k": 3
+    },
+    {
+      "query": "salesforce well architected framework org review",
+      "domain": "architect",
+      "expected_skill": "architect/well-architected-review",
+      "top_k": 3
+    },
+    {
+      "query": "custom metadata vs custom settings lwc vs aura",
+      "domain": "architect",
+      "expected_skill": "architect/platform-selection-guidance",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a scratch org from a definition file with the right edition",
+      "domain": "devops",
+      "expected_skill": "devops/scratch-org-management",
+      "top_k": 3
+    },
+    {
+      "query": "how to encrypt sensitive PII fields at rest in Salesforce Shield",
+      "domain": "security",
+      "expected_skill": "security/platform-encryption",
+      "top_k": 3
+    },
+    {
+      "query": "how does Einstein Trust Layer data masking and zero retention work",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/einstein-trust-layer",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a FlexCard with data source and conditional visibility",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/flexcard-design-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "how to use Salesforce REST API composite to create related records in one call",
+      "domain": "integration",
+      "expected_skill": "integration/rest-api-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "how to load millions of records using Bulk API 2.0 ingest job",
+      "domain": "data",
+      "expected_skill": "data/bulk-api-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "sandbox refresh SandboxPostCopy automation",
+      "domain": "devops",
+      "expected_skill": "devops/sandbox-refresh-and-templates",
+      "top_k": 3
+    },
+    {
+      "query": "shield event monitoring log files",
+      "domain": "security",
+      "expected_skill": "security/event-monitoring",
+      "top_k": 3
+    },
+    {
+      "query": "create agentforce agent deployment",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agentforce-agent-creation",
+      "top_k": 3
+    },
+    {
+      "query": "calculation procedure expression set lookup",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/calculation-procedures",
+      "top_k": 3
+    },
+    {
+      "query": "salesforce SOAP API enterprise WSDL",
+      "domain": "integration",
+      "expected_skill": "integration/soap-api-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "enterprise territory management account assignment",
+      "domain": "admin",
+      "expected_skill": "admin/enterprise-territory-management",
+      "top_k": 3
+    },
+    {
+      "query": "how do I deploy a change set to production and avoid missing dependencies",
+      "domain": "devops",
+      "expected_skill": "devops/change-set-deployment",
+      "top_k": 3
+    },
+    {
+      "query": "running security health check and interpreting scores in Salesforce",
+      "domain": "security",
+      "expected_skill": "security/security-health-check",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a prompt template in Prompt Builder with grounding",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/prompt-builder-templates",
+      "top_k": 3
+    },
+    {
+      "query": "omnistudio omniscript not working debug mode dataraptor empty results",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-debugging",
+      "top_k": 3
+    },
+    {
+      "query": "how to chain queueable apex jobs with finalizer interface",
+      "domain": "apex",
+      "expected_skill": "apex/apex-queueable-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "how do I pass data back from LWC component to flow screen output variable",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-in-flow-screens",
+      "top_k": 3
+    },
+    {
+      "query": "unlocked package version creation dependency management",
+      "domain": "devops",
+      "expected_skill": "devops/unlocked-package-development",
+      "top_k": 3
+    },
+    {
+      "query": "field audit trail shield retention compliance",
+      "domain": "security",
+      "expected_skill": "security/field-audit-trail",
+      "top_k": 3
+    },
+    {
+      "query": "einstein copilot opportunity scoring sales",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/einstein-copilot-for-sales",
+      "top_k": 3
+    },
+    {
+      "query": "custom permissions apex feature flag",
+      "domain": "admin",
+      "expected_skill": "admin/custom-permissions",
+      "top_k": 3
+    },
+    {
+      "query": "apex managed sharing share objects row cause",
+      "domain": "apex",
+      "expected_skill": "apex/apex-managed-sharing",
+      "top_k": 3
+    },
+    {
+      "query": "ShowToastEvent LWC toast notification",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-toast-and-notifications",
+      "top_k": 3
+    },
+    {
+      "query": "second generation managed package 2GP AppExchange ISV",
+      "domain": "devops",
+      "expected_skill": "devops/second-generation-managed-packages",
+      "top_k": 3
+    },
+    {
+      "query": "transaction security policy block login from unknown location",
+      "domain": "security",
+      "expected_skill": "security/transaction-security-policies",
+      "top_k": 3
+    },
+    {
+      "query": "Einstein Prediction Builder score leads convert",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/einstein-prediction-builder",
+      "top_k": 3
+    },
+    {
+      "query": "configure named credentials for REST callout OAuth",
+      "domain": "integration",
+      "expected_skill": "integration/named-credentials-setup",
+      "top_k": 3
+    },
+    {
+      "query": "schedule Apex class run daily cron",
+      "domain": "apex",
+      "expected_skill": "apex/apex-scheduled-jobs",
+      "top_k": 3
+    },
+    {
+      "query": "LWC dynamic component lwc:component runtime rendering",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-dynamic-components",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up DevOps Center pipeline work items and promote changes",
+      "domain": "devops",
+      "expected_skill": "devops/devops-center-pipeline",
+      "top_k": 3
+    },
+    {
+      "query": "analyze login history to detect suspicious access in Salesforce",
+      "domain": "security",
+      "expected_skill": "security/login-forensics",
+      "top_k": 3
+    },
+    {
+      "query": "configure Einstein case classification and article recommendations for service agents",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/einstein-copilot-for-service",
+      "top_k": 3
+    },
+    {
+      "query": "handle inbound email with Apex InboundEmailHandler and parse attachments",
+      "domain": "apex",
+      "expected_skill": "apex/apex-email-services",
+      "top_k": 3
+    },
+    {
+      "query": "call Apex method imperatively from LWC with loading state and error handling",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-imperative-apex",
+      "top_k": 3
+    },
+    {
+      "query": "flow debug mode fault email interview log",
+      "domain": "flow",
+      "expected_skill": "flow/flow-debugging",
+      "top_k": 3
+    },
+    {
+      "query": "github actions salesforce CI pipeline",
+      "domain": "devops",
+      "expected_skill": "devops/github-actions-for-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "bitbucket pipelines salesforce deploy CI",
+      "domain": "devops",
+      "expected_skill": "devops/bitbucket-pipelines-for-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "trusted IP ranges CSP salesforce login",
+      "domain": "security",
+      "expected_skill": "security/network-security-and-trusted-ips",
+      "top_k": 3
+    },
+    {
+      "query": "model builder bring your own LLM salesforce",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/model-builder-and-byollm",
+      "top_k": 3
+    },
+    {
+      "query": "omnistudio datapack export import",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-deployment-datapacks",
+      "top_k": 3
+    },
+    {
+      "query": "streaming API PushTopic salesforce",
+      "domain": "integration",
+      "expected_skill": "integration/streaming-api-and-pushtopic",
+      "top_k": 3
+    },
+    {
+      "query": "delegated admin group manage users",
+      "domain": "admin",
+      "expected_skill": "admin/delegated-administration",
+      "top_k": 3
+    },
+    {
+      "query": "continuation callout long running apex",
+      "domain": "apex",
+      "expected_skill": "apex/continuation-callouts",
+      "top_k": 3
+    },
+    {
+      "query": "lightning message service message channel",
+      "domain": "lwc",
+      "expected_skill": "lwc/message-channel-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "auto launched flow invoke from apex",
+      "domain": "flow",
+      "expected_skill": "flow/auto-launched-flow-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "field history tracking audit trail salesforce",
+      "domain": "data",
+      "expected_skill": "data/field-history-tracking",
+      "top_k": 3
+    },
+    {
+      "query": "flow loop filter sort transform collection variable DML",
+      "domain": "flow",
+      "expected_skill": "flow/flow-collection-processing",
+      "top_k": 3
+    },
+    {
+      "query": "dynamic forms lightning record page visibility rules field sections",
+      "domain": "admin",
+      "expected_skill": "admin/dynamic-forms-and-actions",
+      "top_k": 3
+    },
+    {
+      "query": "RAG retrieval augmented generation data cloud vector search agent grounding",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/rag-patterns-in-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "security architecture review org sharing model FLS exposed APIs Shield assessment",
+      "domain": "architect",
+      "expected_skill": "architect/security-architecture-review",
+      "top_k": 3
+    },
+    {
+      "query": "platform events integration CometD external system",
+      "domain": "integration",
+      "expected_skill": "integration/platform-events-integration",
+      "top_k": 3
+    },
+    {
+      "query": "lightning record form record edit form datatable LWC base components",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-base-component-recipes",
+      "top_k": 3
+    },
+    {
+      "query": "omnistudio performance slow OmniScript integration procedure caching lazy loading",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-performance",
+      "top_k": 3
+    },
+    {
+      "query": "sandbox data masking PII compliance GDPR Salesforce Data Mask product",
+      "domain": "security",
+      "expected_skill": "security/sandbox-data-masking",
+      "top_k": 3
+    },
+    {
+      "query": "how do I add guidance text and key fields to each stage on opportunity path",
+      "domain": "admin",
+      "expected_skill": "admin/path-and-guidance",
+      "top_k": 3
+    },
+    {
+      "query": "enable confetti celebration on closed won stage salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/path-and-guidance",
+      "top_k": 3
+    },
+    {
+      "query": "how do I call an external REST API from Flow without writing Apex",
+      "domain": "flow",
+      "expected_skill": "flow/flow-external-services",
+      "top_k": 3
+    },
+    {
+      "query": "register OpenAPI spec as External Service in Salesforce Flow",
+      "domain": "flow",
+      "expected_skill": "flow/flow-external-services",
+      "top_k": 3
+    },
+    {
+      "query": "HTTP Callout action in Flow Builder Spring 24 Named Credential",
+      "domain": "flow",
+      "expected_skill": "flow/flow-external-services",
+      "top_k": 3
+    },
+    {
+      "query": "how do I configure Salesforce for government FedRAMP compliance",
+      "domain": "architect",
+      "expected_skill": "architect/government-cloud-compliance",
+      "top_k": 3
+    },
+    {
+      "query": "how do I test Salesforce agent conversations and measure topic coverage",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agent-testing-and-evaluation",
+      "top_k": 3
+    },
+    {
+      "query": "dynamic SOQL query with Schema.describe at runtime",
+      "domain": "apex",
+      "expected_skill": "apex/dynamic-apex",
+      "top_k": 3
+    },
+    {
+      "query": "enable person accounts Salesforce B2C data model limitations",
+      "domain": "data",
+      "expected_skill": "data/person-accounts",
+      "top_k": 3
+    },
+    {
+      "query": "GitLab CI pipeline for Salesforce SFDX deployment jobs",
+      "domain": "devops",
+      "expected_skill": "devops/gitlab-ci-for-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "stream Salesforce record changes to external system CDC replay ID",
+      "domain": "integration",
+      "expected_skill": "integration/change-data-capture-integration",
+      "top_k": 3
+    },
+    {
+      "query": "migrate Aura component to LWC interoperability event translation",
+      "domain": "lwc",
+      "expected_skill": "lwc/aura-to-lwc-migration",
+      "top_k": 3
+    },
+    {
+      "query": "Industries CPQ vs Salesforce CPQ comparison migration decision",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/industries-cpq-vs-salesforce-cpq",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce API rate limits Connected App OAuth scope restriction",
+      "domain": "security",
+      "expected_skill": "security/api-security-and-rate-limiting",
+      "top_k": 3
+    },
+    {
+      "query": "set up Path on Opportunity guidance steps celebration confetti",
+      "domain": "admin",
+      "expected_skill": "admin/path-and-guidance",
+      "top_k": 3
+    },
+    {
+      "query": "how do I decide between scratch orgs and sandboxes for my environment strategy",
+      "domain": "devops",
+      "expected_skill": "devops/environment-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "how to create a custom field programmatically from Apex code",
+      "domain": "apex",
+      "expected_skill": "apex/apex-metadata-api",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up a case queue for my support team in Salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/queues-and-public-groups",
+      "top_k": 3
+    },
+    {
+      "query": "how to create parent and child records in one Salesforce API call",
+      "domain": "integration",
+      "expected_skill": "integration/composite-api-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "how do I rotate an expiring certificate in Salesforce",
+      "domain": "security",
+      "expected_skill": "security/certificate-and-key-management",
+      "top_k": 3
+    },
+    {
+      "query": "how to design a reusable integration framework for Salesforce Apex callouts",
+      "domain": "architect",
+      "expected_skill": "architect/integration-framework-design",
+      "top_k": 3
+    },
+    {
+      "query": "how do I deploy an Agentforce agent to my website",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agent-channel-deployment",
+      "top_k": 3
+    },
+    {
+      "query": "how to embed OmniScript in a Lightning Web Component",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-lwc-integration",
+      "top_k": 3
+    },
+    {
+      "query": "how to automatically delete old records in Salesforce on a schedule",
+      "domain": "data",
+      "expected_skill": "data/batch-data-cleanup-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "org is approaching data storage limit and needs to free space",
+      "domain": "data",
+      "expected_skill": "data/data-storage-management",
+      "top_k": 3
+    },
+    {
+      "query": "sfdx source tracking conflict resolve force overwrite",
+      "domain": "devops",
+      "expected_skill": "devops/source-tracking-and-conflict-resolution",
+      "top_k": 3
+    },
+    {
+      "query": "how to classify field data sensitivity SecurityClassification ComplianceGroup",
+      "domain": "security",
+      "expected_skill": "security/data-classification-labels",
+      "top_k": 3
+    },
+    {
+      "query": "migrate einstein bots to agentforce legacy chat migration",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/einstein-bots-to-agentforce-migration",
+      "top_k": 3
+    },
+    {
+      "query": "platform events vs change data capture vs streaming API architecture",
+      "domain": "integration",
+      "expected_skill": "integration/event-driven-architecture-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "business rules engine decision table eligibility omnistudio",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/business-rules-engine",
+      "top_k": 3
+    },
+    {
+      "query": "migrate vlocity managed package to native omnistudio namespace update LWC Apex",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/vlocity-to-native-omnistudio-migration",
+      "top_k": 3
+    },
+    {
+      "query": "OmniStudio Migration Tool vlocity_ins to omnistudio enableOaForCore",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/vlocity-to-native-omnistudio-migration",
+      "top_k": 3
+    },
+    {
+      "query": "custom metadata types vs custom settings when to use each",
+      "domain": "admin",
+      "expected_skill": "admin/custom-metadata-types-and-settings",
+      "top_k": 3
+    },
+    {
+      "query": "CDC trigger apex change data capture ChangeEventHeader changedFields",
+      "domain": "apex",
+      "expected_skill": "apex/change-data-capture-apex",
+      "top_k": 3
+    },
+    {
+      "query": "LWC accessibility ARIA keyboard navigation WCAG screen reader",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwc-accessibility-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "send email custom notification from flow bell icon",
+      "domain": "flow",
+      "expected_skill": "flow/flow-email-and-notifications",
+      "top_k": 3
+    },
+    {
+      "query": "how do I plan a Salesforce release with rollback strategy and release calendar",
+      "domain": "devops",
+      "expected_skill": "devops/release-management",
+      "top_k": 3
+    },
+    {
+      "query": "guest user is exposing records they should not see on our Experience Cloud site",
+      "domain": "security",
+      "expected_skill": "security/guest-user-security",
+      "top_k": 3
+    },
+    {
+      "query": "how do I build a custom Apex action for my Agentforce agent with @InvocableMethod",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/custom-agent-actions-apex",
+      "top_k": 3
+    },
+    {
+      "query": "how do I activate a new OmniScript version and roll back to a previous version",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omniscript-versioning",
+      "top_k": 3
+    },
+    {
+      "query": "how do I build a reusable test data factory class in Apex",
+      "domain": "apex",
+      "expected_skill": "apex/test-data-factory-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "SOQL query is doing a TableScan and I need to request a custom index from Salesforce Support",
+      "domain": "data",
+      "expected_skill": "data/custom-index-requests",
+      "top_k": 3
+    },
+    {
+      "query": "permission set deployment fails cross reference id error",
+      "domain": "devops",
+      "expected_skill": "devops/permission-set-deployment-ordering",
+      "top_k": 3
+    },
+    {
+      "query": "XSS injection prevention JSENCODE Visualforce script block",
+      "domain": "security",
+      "expected_skill": "security/xss-and-injection-prevention",
+      "top_k": 3
+    },
+    {
+      "query": "Agentforce session trace deflection rate observability",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agentforce-observability",
+      "top_k": 3
+    },
+    {
+      "query": "DataRaptor load upsert key iferror OmniStudio",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/dataraptor-load-and-extract",
+      "top_k": 3
+    },
+    {
+      "query": "inbound webhook HMAC verification Salesforce Sites",
+      "domain": "integration",
+      "expected_skill": "integration/webhook-inbound-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "custom logging Platform Event Apex LoggerService",
+      "domain": "apex",
+      "expected_skill": "apex/custom-logging-and-monitoring",
+      "top_k": 3
+    },
+    {
+      "query": "Translation Workbench Custom Labels multilingual org setup",
+      "domain": "admin",
+      "expected_skill": "admin/multi-language-and-translation",
+      "top_k": 3
+    },
+    {
+      "query": "Flow runtime error fault email null reference SOQL limit",
+      "domain": "flow",
+      "expected_skill": "flow/flow-runtime-error-diagnosis",
+      "top_k": 3
+    },
+    {
+      "query": "Account merge implications field values child records",
+      "domain": "data",
+      "expected_skill": "data/record-merge-implications",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce edition feature not available Enterprise Unlimited",
+      "domain": "architect",
+      "expected_skill": "architect/org-edition-and-feature-licensing",
+      "top_k": 3
+    },
+    {
+      "query": "how do I seed test data into scratch orgs for CI pipelines",
+      "domain": "devops",
+      "expected_skill": "devops/data-seeding-for-testing",
+      "top_k": 3
+    },
+    {
+      "query": "how does sharing work for external portal users in Experience Cloud",
+      "domain": "security",
+      "expected_skill": "security/experience-cloud-security",
+      "top_k": 3
+    },
+    {
+      "query": "how do I make my Agentforce agent sound more professional and empathetic",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agentforce-persona-design",
+      "top_k": 3
+    },
+    {
+      "query": "System.CalloutException after DML in trigger Apex callout",
+      "domain": "integration",
+      "expected_skill": "integration/callout-limits-and-async-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "how do I check if my batch Apex job is stuck or failed",
+      "domain": "admin",
+      "expected_skill": "admin/batch-job-scheduling-and-monitoring",
+      "top_k": 3
+    },
+    {
+      "query": "how to run Apex tests in a CI pipeline with code coverage",
+      "domain": "devops",
+      "expected_skill": "devops/continuous-integration-testing",
+      "top_k": 3
+    },
+    {
+      "query": "prepare my Apex code for the Salesforce AppExchange security review",
+      "domain": "security",
+      "expected_skill": "security/secure-coding-review-checklist",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up Einstein Next Best Action recommendations",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/einstein-next-best-action",
+      "top_k": 3
+    },
+    {
+      "query": "WhoId polymorphic lookup on Task object quirks",
+      "domain": "admin",
+      "expected_skill": "admin/standard-object-quirks",
+      "top_k": 3
+    },
+    {
+      "query": "what is the Salesforce order of execution for triggers and flows",
+      "domain": "apex",
+      "expected_skill": "apex/order-of-execution-deep-dive",
+      "top_k": 3
+    },
+    {
+      "query": "how to configure scratch org definition file features and settings",
+      "domain": "devops",
+      "expected_skill": "devops/org-shape-and-scratch-definition",
+      "top_k": 3
+    },
+    {
+      "query": "session timeout per profile inactivity settings",
+      "domain": "security",
+      "expected_skill": "security/session-management-and-timeout",
+      "top_k": 3
+    },
+    {
+      "query": "record type page layout explosion at scale Dynamic Forms",
+      "domain": "admin",
+      "expected_skill": "admin/record-type-strategy-at-scale",
+      "top_k": 3
+    },
+    {
+      "query": "implement feature flags with Custom Metadata Types and kill switches",
+      "domain": "apex",
+      "expected_skill": "apex/feature-flags-and-kill-switches",
+      "top_k": 3
+    },
+    {
+      "query": "delete metadata component salesforce deployment destructive changes",
+      "domain": "devops",
+      "expected_skill": "devops/destructive-changes-deployment",
+      "top_k": 3
+    },
+    {
+      "query": "connected app ip restriction oauth access policies",
+      "domain": "security",
+      "expected_skill": "security/connected-app-security-policies",
+      "top_k": 3
+    },
+    {
+      "query": "agentforce agent metadata types GenAiPlugin deployment",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agent-script-dsl",
+      "top_k": 3
+    },
+    {
+      "query": "custom lwc component inside omniscript override patterns",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-custom-lwc-elements",
+      "top_k": 3
+    },
+    {
+      "query": "retry exponential backoff pattern apex callout",
+      "domain": "integration",
+      "expected_skill": "integration/retry-and-backoff-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "user access policy auto assign permission set on user create",
+      "domain": "admin",
+      "expected_skill": "admin/user-access-policies",
+      "top_k": 3
+    },
+    {
+      "query": "apex order of execution before after trigger flow",
+      "domain": "apex",
+      "expected_skill": "apex/order-of-execution-deep-dive",
+      "top_k": 3
+    },
+    {
+      "query": "merge duplicate records at scale batch apex",
+      "domain": "data",
+      "expected_skill": "data/large-scale-deduplication",
+      "top_k": 3
+    },
+    {
+      "query": "high availability disaster recovery RTO RPO salesforce",
+      "domain": "architect",
+      "expected_skill": "architect/ha-dr-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "picklist values being created by API that are not in the value set",
+      "domain": "admin",
+      "expected_skill": "admin/picklist-field-integrity-issues",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up automated regression testing for Salesforce Lightning",
+      "domain": "devops",
+      "expected_skill": "devops/automated-regression-testing",
+      "top_k": 3
+    },
+    {
+      "query": "configure MuleSoft Salesforce connector with watermark pattern",
+      "domain": "integration",
+      "expected_skill": "integration/mulesoft-salesforce-connector",
+      "top_k": 3
+    },
+    {
+      "query": "OmniScript remote action Apex vs Integration Procedure",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/omnistudio-remote-actions",
+      "top_k": 3
+    },
+    {
+      "query": "add reCAPTCHA to Experience Cloud site forms",
+      "domain": "security",
+      "expected_skill": "security/recaptcha-and-bot-prevention",
+      "top_k": 3
+    },
+    {
+      "query": "monitor org API limits and storage consumption proactively",
+      "domain": "architect",
+      "expected_skill": "architect/org-limits-monitoring",
+      "top_k": 3
+    },
+    {
+      "query": "how to clean up unused fields and technical debt in Salesforce org",
+      "domain": "admin",
+      "expected_skill": "admin/org-cleanup-and-technical-debt",
+      "top_k": 3
+    },
+    {
+      "query": "which metadata types are supported in unlocked packages dependency graph",
+      "domain": "architect",
+      "expected_skill": "architect/metadata-coverage-and-dependencies",
+      "top_k": 3
+    },
+    {
+      "query": "git branching strategy for Salesforce DX projects trunk based GitFlow",
+      "domain": "devops",
+      "expected_skill": "devops/git-branching-for-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "api led connectivity integration layer architecture",
+      "domain": "integration",
+      "expected_skill": "integration/api-led-connectivity",
+      "top_k": 3
+    },
+    {
+      "query": "OmniStudio document generation template merge tokens PDF",
+      "domain": "omnistudio",
+      "expected_skill": "omnistudio/document-generation-omnistudio",
+      "top_k": 3
+    },
+    {
+      "query": "login flow IP range conditional MFA Experience Cloud custom login",
+      "domain": "security",
+      "expected_skill": "security/ip-range-and-login-flow-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "component visibility filters AND OR conditions Lightning App Builder record page",
+      "domain": "admin",
+      "expected_skill": "admin/lightning-app-builder-advanced",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a walkthrough to guide users through a new process in Salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/in-app-guidance-and-walkthroughs",
+      "top_k": 3
+    },
+    {
+      "query": "how to recover from LimitException in Apex transaction",
+      "domain": "apex",
+      "expected_skill": "apex/governor-limit-recovery-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "Apex NullPointerException QueryException DmlException ListException runtime error diagnosis root cause",
+      "domain": "apex",
+      "expected_skill": "apex/common-apex-runtime-errors",
+      "top_k": 3
+    },
+    {
+      "query": "how to reduce view state on a Visualforce page",
+      "domain": "apex",
+      "expected_skill": "apex/visualforce-fundamentals",
+      "top_k": 3
+    },
+    {
+      "query": "custom fields missing after lead conversion in Salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/lead-management-and-conversion",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up opportunity stages and sales processes for different business units",
+      "domain": "admin",
+      "expected_skill": "admin/opportunity-management",
+      "top_k": 3
+    },
+    {
+      "query": "nfr performance scalability availability requirements salesforce architecture",
+      "domain": "architect",
+      "expected_skill": "architect/nfr-definition-for-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce record count does not match external system after data sync",
+      "domain": "data",
+      "expected_skill": "data/data-reconciliation-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "how do I verify my Salesforce deployment succeeded and validate before quick deploy",
+      "domain": "devops",
+      "expected_skill": "devops/post-deployment-validation",
+      "top_k": 3
+    },
+    {
+      "query": "how do I roll back a failed Salesforce production deployment",
+      "domain": "devops",
+      "expected_skill": "devops/rollback-and-hotfix-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create and send a customer feedback survey in Salesforce",
+      "domain": "admin",
+      "expected_skill": "admin/salesforce-surveys",
+      "top_k": 3
+    },
+    {
+      "query": "how do I use fflib UnitOfWork and domain selector patterns in Apex",
+      "domain": "apex",
+      "expected_skill": "apex/fflib-enterprise-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "FERPA compliance student data protection education cloud",
+      "domain": "security",
+      "expected_skill": "security/ferpa-compliance-in-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "how do I upload a file to Salesforce using the REST API and link it to a record",
+      "domain": "integration",
+      "expected_skill": "integration/file-and-document-integration",
+      "top_k": 3
+    },
+    {
+      "query": "which DevOps tool should we use for Salesforce deployments Gearset vs Copado",
+      "domain": "devops",
+      "expected_skill": "devops/salesforce-devops-tooling-selection",
+      "top_k": 3
+    },
+    {
+      "query": "how should I architect Sales Cloud for a large enterprise with territory management",
+      "domain": "architect",
+      "expected_skill": "architect/sales-cloud-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "advanced currency management multi currency dated exchange",
+      "domain": "architect",
+      "expected_skill": "architect/multi-currency-sales-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "should we buy Salesforce CPQ or use standard Products and Pricebooks",
+      "domain": "architect",
+      "expected_skill": "architect/cpq-vs-standard-products-decision",
+      "top_k": 3
+    },
+    {
+      "query": "Sales Cloud ERP integration quote to order",
+      "domain": "architect",
+      "expected_skill": "architect/sales-cloud-integration-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "opportunity table is slow with millions of records and account ownership skew",
+      "domain": "architect",
+      "expected_skill": "architect/high-volume-sales-data-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "Service Cloud architecture for case management entitlements and SLA tracking",
+      "domain": "architect",
+      "expected_skill": "architect/service-cloud-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "omni channel capacity model weights routing configuration",
+      "domain": "architect",
+      "expected_skill": "architect/omni-channel-capacity-model",
+      "top_k": 3
+    },
+    {
+      "query": "should we use Salesforce Knowledge or an external CMS for support content",
+      "domain": "architect",
+      "expected_skill": "architect/knowledge-vs-external-cms",
+      "top_k": 3
+    },
+    {
+      "query": "Einstein Bot dialog design and intent model architecture for service",
+      "domain": "architect",
+      "expected_skill": "architect/einstein-bot-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "multi channel service architecture routing strategy",
+      "domain": "architect",
+      "expected_skill": "architect/multi-channel-service-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up email to case so customer replies thread instead of creating new cases",
+      "domain": "admin",
+      "expected_skill": "admin/case-management-setup",
+      "top_k": 3
+    },
+    {
+      "query": "how to integrate student information system with Salesforce Education Cloud",
+      "domain": "integration",
+      "expected_skill": "integration/sis-integration-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "API error response design and HTTP status codes for Apex REST services",
+      "domain": "integration",
+      "expected_skill": "integration/api-error-handling-design",
+      "top_k": 3
+    },
+    {
+      "query": "export Salesforce data for external LLM consumption and embedding pipelines",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/sf-to-llm-data-pipelines",
+      "top_k": 3
+    },
+    {
+      "query": "sharing recalculation performance after role hierarchy changes",
+      "domain": "data",
+      "expected_skill": "data/sharing-recalculation-performance",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce license optimization and inactive user reclamation strategy",
+      "domain": "architect",
+      "expected_skill": "architect/license-optimization-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "DateTime timezone conversion pitfalls and Date.today wrong day",
+      "domain": "apex",
+      "expected_skill": "apex/timezone-and-datetime-pitfalls",
+      "top_k": 3
+    },
+    {
+      "query": "formula field causing full table scan large data volume SOQL",
+      "domain": "apex",
+      "expected_skill": "apex/formula-field-performance-and-limits",
+      "top_k": 3
+    },
+    {
+      "query": "chaining Queueable jobs for long running process orchestration",
+      "domain": "apex",
+      "expected_skill": "apex/long-running-process-orchestration",
+      "top_k": 3
+    },
+    {
+      "query": "report performance tuning slow dashboard filters optimization",
+      "domain": "admin",
+      "expected_skill": "admin/report-performance-tuning",
+      "top_k": 3
+    },
+    {
+      "query": "how to escalate a Salesforce support case severity levels",
+      "domain": "admin",
+      "expected_skill": "admin/salesforce-support-escalation",
+      "top_k": 3
+    },
+    {
+      "query": "preparing for Salesforce seasonal release sandbox preview",
+      "domain": "admin",
+      "expected_skill": "admin/salesforce-release-preparation",
+      "top_k": 3
+    },
+    {
+      "query": "how do I build a report in Salesforce and add it to a dashboard with filters",
+      "domain": "admin",
+      "expected_skill": "admin/reports-and-dashboards-fundamentals",
+      "top_k": 3
+    },
+    {
+      "query": "Agentforce guardrails restricted topics",
+      "domain": "agentforce",
+      "expected_skill": "agentforce/agentforce-guardrails",
+      "top_k": 3
+    },
+    {
+      "query": "centralized error logging framework Apex Platform Event",
+      "domain": "apex",
+      "expected_skill": "apex/error-handling-framework",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce data model AI ready Einstein grounding",
+      "domain": "architect",
+      "expected_skill": "architect/ai-ready-data-architecture",
+      "top_k": 3
+    },
+    {
+      "query": "external ID field upsert operations matching",
+      "domain": "data",
+      "expected_skill": "data/external-id-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "OWD change sharing recalculation job running for hours defer sharing calculations",
+      "domain": "data",
+      "expected_skill": "data/sharing-recalculation-performance",
+      "top_k": 3
+    },
+    {
+      "query": "how do I run Salesforce Code Analyzer in my CI pipeline for static analysis",
+      "domain": "devops",
+      "expected_skill": "devops/salesforce-code-analyzer",
+      "top_k": 3
+    },
+    {
+      "query": "flow pause element wait platform event time based",
+      "domain": "flow",
+      "expected_skill": "flow/pause-elements-and-wait-events",
+      "top_k": 3
+    },
+    {
+      "query": "configure outbound message to notify external system when record changes SOAP callback",
+      "domain": "integration",
+      "expected_skill": "integration/outbound-messages-and-callbacks",
+      "top_k": 3
+    },
+    {
+      "query": "common LWC runtime errors wire adapter undefined shadow DOM querySelector null",
+      "domain": "lwc",
+      "expected_skill": "lwc/common-lwc-runtime-errors",
+      "top_k": 3
+    },
+    {
+      "query": "how do I handle GDPR right to erasure and consent tracking in Salesforce",
+      "domain": "security",
+      "expected_skill": "security/gdpr-data-privacy",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up VS Code for Salesforce development with Apex LSP",
+      "domain": "devops",
+      "expected_skill": "devops/vscode-salesforce-extensions",
+      "top_k": 3
+    },
+    {
+      "query": "sfdx project json packageDirectories sourceApiVersion directory layout",
+      "domain": "devops",
+      "expected_skill": "devops/salesforce-dx-project-structure",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up scratch org pools for CI parallel testing",
+      "domain": "devops",
+      "expected_skill": "devops/scratch-org-pools",
+      "top_k": 3
+    },
+    {
+      "query": "how to manage multiple packages and dependencies between them in Salesforce DX",
+      "domain": "devops",
+      "expected_skill": "devops/multi-package-development",
+      "top_k": 3
+    },
+    {
+      "query": "what to check before deploying metadata to Salesforce production",
+      "domain": "devops",
+      "expected_skill": "devops/pre-deployment-checklist",
+      "top_k": 3
+    },
+    {
+      "query": "migrate change sets to SFDX source driven",
+      "domain": "devops",
+      "expected_skill": "devops/migration-from-change-sets-to-sfdx",
+      "top_k": 3
+    },
+    {
+      "query": "how to prevent UNABLE_TO_LOCK_ROW errors and record locking contention",
+      "domain": "apex",
+      "expected_skill": "apex/record-locking-and-contention",
+      "top_k": 3
+    },
+    {
+      "query": "how to load test and performance benchmark a Salesforce org",
+      "domain": "devops",
+      "expected_skill": "devops/performance-testing-salesforce",
+      "top_k": 3
+    },
+    {
+      "query": "how to plan production cutover sequence and code freeze for Salesforce go live deployment",
+      "domain": "devops",
+      "expected_skill": "devops/go-live-cutover-planning",
+      "top_k": 3
+    },
+    {
+      "query": "difference between SystemModstamp and LastModifiedDate and how audit fields work",
+      "domain": "admin",
+      "expected_skill": "admin/system-field-behavior-and-audit",
+      "top_k": 3
+    },
+    {
+      "query": "how to manage triggers and flows on the same object without conflicts",
+      "domain": "apex",
+      "expected_skill": "apex/trigger-and-flow-coexistence",
+      "top_k": 3
+    },
+    {
+      "query": "how to choose between Gearset Copado Flosum and native SFDX for Salesforce DevOps",
+      "domain": "devops",
+      "expected_skill": "devops/salesforce-devops-tooling-selection",
+      "top_k": 3
+    },
+    {
+      "query": "how to profile and diagnose Apex CPU time and performance bottlenecks",
+      "domain": "apex",
+      "expected_skill": "apex/apex-performance-profiling",
+      "top_k": 3
+    },
+    {
+      "query": "how to troubleshoot and fix common Salesforce deployment errors",
+      "domain": "devops",
+      "expected_skill": "devops/deployment-error-troubleshooting",
+      "top_k": 3
+    },
+    {
+      "query": "how to fix uncommitted work pending error with callouts and DML in same transaction",
+      "domain": "apex",
+      "expected_skill": "apex/callout-and-dml-transaction-boundaries",
+      "top_k": 3
+    },
+    {
+      "query": "cross object formula spanning relationship limits and rollup summary performance",
+      "domain": "apex",
+      "expected_skill": "apex/cross-object-formula-and-rollup-performance",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up collaborative forecasts forecast types and rollup methods",
+      "domain": "admin",
+      "expected_skill": "admin/collaborative-forecasts",
+      "top_k": 3
+    },
+    {
+      "query": "configure Einstein Activity Capture email calendar sync OAuth profile",
+      "domain": "admin",
+      "expected_skill": "admin/einstein-activity-capture-setup",
+      "top_k": 3
+    },
+    {
+      "query": "lead scoring model MQL SQL threshold demographic behavioral criteria",
+      "domain": "admin",
+      "expected_skill": "admin/lead-scoring-requirements",
+      "top_k": 3
+    },
+    {
+      "query": "Lightning page slow EPT high too many components performance tuning",
+      "domain": "admin",
+      "expected_skill": "admin/lightning-page-performance-tuning",
+      "top_k": 3
+    },
+    {
+      "query": "Pipeline Inspection setup forecast categories days in stage review cadence",
+      "domain": "admin",
+      "expected_skill": "admin/pipeline-review-design",
+      "top_k": 3
+    },
+    {
+      "query": "quote to cash process opportunity to quote to order approval workflow",
+      "domain": "admin",
+      "expected_skill": "admin/quote-to-cash-requirements",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce quote template PDF email quote sync line items",
+      "domain": "admin",
+      "expected_skill": "admin/quotes-and-quote-templates",
+      "top_k": 3
+    },
+    {
+      "query": "Sales Engagement cadence builder HVS work queue steps setup",
+      "domain": "admin",
+      "expected_skill": "admin/sales-engagement-cadences",
+      "top_k": 3
+    },
+    {
+      "query": "sales process mapping stage sequencing entry exit criteria methodology",
+      "domain": "admin",
+      "expected_skill": "admin/sales-process-mapping",
+      "top_k": 3
+    },
+    {
+      "query": "territory design alignment criteria coverage model assignment rule hierarchy",
+      "domain": "admin",
+      "expected_skill": "admin/territory-design-requirements",
+      "top_k": 3
+    },
+    {
+      "query": "Einstein Activity Capture ActivityMetric SOQL UnifiedActivity API query",
+      "domain": "apex",
+      "expected_skill": "apex/einstein-activity-capture-api",
+      "top_k": 3
+    },
+    {
+      "query": "Database.LeadConvert Apex custom field mapping lead conversion trigger",
+      "domain": "apex",
+      "expected_skill": "apex/lead-conversion-customization",
+      "top_k": 3
+    },
+    {
+      "query": "MIXED_DML_OPERATION setup object User DML same transaction error",
+      "domain": "apex",
+      "expected_skill": "apex/mixed-dml-and-setup-objects",
+      "top_k": 3
+    },
+    {
+      "query": "opportunity trigger stage change detection amount rollup team member sync",
+      "domain": "apex",
+      "expected_skill": "apex/opportunity-trigger-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "Visualforce quote PDF template custom rendering getContentAsPDF",
+      "domain": "apex",
+      "expected_skill": "apex/quote-pdf-customization",
+      "top_k": 3
+    },
+    {
+      "query": "enroll lead in cadence Apex Sales Engagement ActionCadenceTracker API",
+      "domain": "apex",
+      "expected_skill": "apex/sales-engagement-api",
+      "top_k": 3
+    },
+    {
+      "query": "Territory2 API UserTerritory2Association ObjectTerritory2Association Apex",
+      "domain": "apex",
+      "expected_skill": "apex/territory-api-and-assignment",
+      "top_k": 3
+    },
+    {
+      "query": "lead import deduplication matching rules web to lead CSV duplicate detection strategy",
+      "domain": "data",
+      "expected_skill": "data/lead-data-import-and-dedup",
+      "top_k": 3
+    },
+    {
+      "query": "migrate opportunity records stage history product line items pricebook load",
+      "domain": "data",
+      "expected_skill": "data/opportunity-pipeline-migration",
+      "top_k": 3
+    },
+    {
+      "query": "Product2 Pricebook2 PricebookEntry data model standard pricebook load sequence",
+      "domain": "data",
+      "expected_skill": "data/product-catalog-data-model",
+      "top_k": 3
+    },
+    {
+      "query": "historical trend reporting snapshot custom report type pipeline analysis",
+      "domain": "data",
+      "expected_skill": "data/sales-reporting-data-model",
+      "top_k": 3
+    },
+    {
+      "query": "Salesforce API version drift audit upgrade sourceApiVersion standardize",
+      "domain": "devops",
+      "expected_skill": "devops/api-version-management",
+      "top_k": 3
+    },
+    {
+      "query": "Copado Essentials pipeline user story promotion conflict resolution deployment",
+      "domain": "devops",
+      "expected_skill": "devops/copado-essentials",
+      "top_k": 3
+    },
+    {
+      "query": "CumulusCI cci automation cumulusci.yml task flow Robot Framework CI",
+      "domain": "devops",
+      "expected_skill": "devops/cumulusci-automation",
+      "top_k": 3
+    },
+    {
+      "query": "environment specific values named credential custom metadata CI variable substitution",
+      "domain": "devops",
+      "expected_skill": "devops/environment-specific-value-injection",
+      "top_k": 3
+    },
+    {
+      "query": "metadata type unsupported deployment failure coverage gap post deploy runbook",
+      "domain": "devops",
+      "expected_skill": "devops/metadata-api-coverage-gaps",
+      "top_k": 3
+    },
+    {
+      "query": "sandbox email leaking to real contacts after refresh",
+      "domain": "devops",
+      "expected_skill": "devops/sandbox-data-isolation-gotchas",
+      "top_k": 3
+    },
+    {
+      "query": "generate PDF from Apex visualforce renderAs Flying Saucer",
+      "domain": "apex",
+      "expected_skill": "apex/pdf-generation-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "set up standard pricebook custom pricebook product catalog",
+      "domain": "admin",
+      "expected_skill": "admin/products-and-pricebooks",
+      "top_k": 3
+    },
+    {
+      "query": "account territory assignment ObjectTerritory2Association coverage analysis",
+      "domain": "data",
+      "expected_skill": "data/territory-data-alignment",
+      "top_k": 3
+    },
+    {
+      "query": "configure omni channel queue based skills based routing setup",
+      "domain": "admin",
+      "expected_skill": "admin/omni-channel-routing-setup",
+      "top_k": 3
+    },
+    {
+      "query": "set up entitlements milestones SLA tracking case",
+      "domain": "admin",
+      "expected_skill": "admin/entitlements-and-milestones",
+      "top_k": 3
+    },
+    {
+      "query": "lightning knowledge setup data categories publishing workflow",
+      "domain": "admin",
+      "expected_skill": "admin/knowledge-base-administration",
+      "top_k": 3
+    },
+    {
+      "query": "email to case on demand routing address auto response threading",
+      "domain": "admin",
+      "expected_skill": "admin/email-to-case-configuration",
+      "top_k": 3
+    },
+    {
+      "query": "service console app setup utility bar macros navigation rules",
+      "domain": "admin",
+      "expected_skill": "admin/service-console-configuration",
+      "top_k": 3
+    },
+    {
+      "query": "MIAW messaging in app web chat embedded service deployment CORS",
+      "domain": "admin",
+      "expected_skill": "admin/messaging-and-chat-setup",
+      "top_k": 3
+    },
+    {
+      "query": "service cloud voice amazon connect setup transcription ACW",
+      "domain": "admin",
+      "expected_skill": "admin/service-cloud-voice-setup",
+      "top_k": 3
+    },
+    {
+      "query": "design SLA escalation matrix tier business hours milestone thresholds",
+      "domain": "architect",
+      "expected_skill": "architect/sla-design-and-escalation-matrix",
+      "top_k": 3
+    },
+    {
+      "query": "design knowledge taxonomy data category hierarchy KCS lifecycle",
+      "domain": "architect",
+      "expected_skill": "architect/knowledge-taxonomy-design",
+      "top_k": 3
+    },
+    {
+      "query": "gather requirements for service console agent workflow macros",
+      "domain": "architect",
+      "expected_skill": "architect/agent-console-requirements",
+      "top_k": 3
+    },
+    {
+      "query": "case deflection strategy self-service knowledge chatbot KPIs",
+      "domain": "architect",
+      "expected_skill": "architect/case-deflection-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "CSAT NPS CES customer effort scoring measurement strategy",
+      "domain": "architect",
+      "expected_skill": "architect/customer-effort-scoring",
+      "top_k": 3
+    },
+    {
+      "query": "apex trigger case assignment rules entitlement merge milestone",
+      "domain": "apex",
+      "expected_skill": "apex/case-trigger-patterns",
+      "top_k": 3
+    },
+    {
+      "query": "build LWC component display knowledge articles SOSL guest access",
+      "domain": "lwc",
+      "expected_skill": "lwc/knowledge-article-lwc",
+      "top_k": 3
+    },
+    {
+      "query": "open CTI adapter callcenter xml softphone panel click to dial",
+      "domain": "apex",
+      "expected_skill": "apex/cti-adapter-development",
+      "top_k": 3
+    },
+    {
+      "query": "custom omni channel routing apex PendingServiceRouting SkillRequirement",
+      "domain": "apex",
+      "expected_skill": "apex/omni-channel-custom-routing",
+      "top_k": 3
+    },
+    {
+      "query": "auto complete case milestone apex CompletionDate IsViolated hooks",
+      "domain": "apex",
+      "expected_skill": "apex/entitlement-apex-hooks",
+      "top_k": 3
+    },
+    {
+      "query": "service cloud REST API knowledge articles chat MIAW endpoints",
+      "domain": "apex",
+      "expected_skill": "apex/service-cloud-rest-api",
+      "top_k": 3
+    },
+    {
+      "query": "migrate case history email messages attachments ContentVersion load order",
+      "domain": "data",
+      "expected_skill": "data/case-history-migration",
+      "top_k": 3
+    },
+    {
+      "query": "bulk import knowledge articles ZIP CSV properties file draft",
+      "domain": "data",
+      "expected_skill": "data/knowledge-article-import",
+      "top_k": 3
+    },
+    {
+      "query": "service metrics data model MTTR CaseMilestone IsViolated reporting",
+      "domain": "data",
+      "expected_skill": "data/service-metrics-data-model",
+      "top_k": 3
+    },
+    {
+      "query": "how do I report Omni-Channel wait time and agent capacity utilization historically",
+      "domain": "data",
+      "expected_skill": "data/omni-channel-reporting-data",
+      "top_k": 3
+    },
+    {
+      "query": "how do I add external users to an Experience Cloud site and set up self-registration",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-member-management",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up a CMS workspace and publish content to an Experience Cloud site",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-cms-content",
+      "top_k": 3
+    },
+    {
+      "query": "can a Customer Community user call the Salesforce REST API directly",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-api-access",
+      "top_k": 3
+    },
+    {
+      "query": "how do I add Google social login to an Experience Cloud site with custom self-registration",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-authentication",
+      "top_k": 3
+    },
+    {
+      "query": "headless Salesforce CMS deliver content to React app external frontend",
+      "domain": "lwc",
+      "expected_skill": "lwc/headless-experience-cloud",
+      "top_k": 3
+    },
+    {
+      "query": "how do I configure search scope in Experience Builder to show only Knowledge articles",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-search-customization",
+      "top_k": 3
+    },
+    {
+      "query": "multiple identity providers Experience Cloud login page OIDC SAML",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-multi-idp-sso",
+      "top_k": 3
+    },
+    {
+      "query": "tenant-specific login routing community parameter Start SSO URL portal",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-multi-idp-sso",
+      "top_k": 3
+    },
+    {
+      "query": "vendor portal corporate IdP citizen portal social IdP same Salesforce org",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-multi-idp-sso",
+      "top_k": 3
+    },
+    {
+      "query": "how do I set up content moderation rules in Experience Cloud to block banned words",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-moderation",
+      "top_k": 3
+    },
+    {
+      "query": "multiple Experience Cloud sites architecture domain strategy",
+      "expected_skill": "architect/multi-site-architecture",
+      "domain": "architect",
+      "top_k": 3
+    },
+    {
+      "query": "partner community requirements deal registration lead distribution tier management",
+      "domain": "admin",
+      "expected_skill": "admin/partner-community-requirements",
+      "top_k": 3
+    },
+    {
+      "query": "PRM deal registration approval flow opportunity conversion partner tier MDF",
+      "domain": "admin",
+      "expected_skill": "admin/partner-community-requirements",
+      "top_k": 3
+    },
+    {
+      "query": "build LWR site Experience Cloud Lightning Web Runtime",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwr-site-development",
+      "top_k": 3
+    },
+    {
+      "query": "custom theme layout component lightningCommunity__Theme_Layout dxp styling hooks",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwr-site-development",
+      "top_k": 3
+    },
+    {
+      "query": "LWR site republish component changes not showing live",
+      "domain": "lwc",
+      "expected_skill": "lwc/lwr-site-development",
+      "top_k": 3
+    },
+    {
+      "query": "configure public pages Experience Cloud unauthenticated access",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-guest-access",
+      "top_k": 3
+    },
+    {
+      "query": "guest user profile setup public community page visibility",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-guest-access",
+      "top_k": 3
+    },
+    {
+      "query": "make Experience Builder page accessible without login",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-guest-access",
+      "top_k": 3
+    },
+    {
+      "query": "migrate community users bulk create external Experience Cloud Data Loader ContactId",
+      "domain": "data",
+      "expected_skill": "data/community-user-data-migration",
+      "top_k": 3
+    },
+    {
+      "query": "move users from Customer Community to Customer Community Plus license migration profile update",
+      "domain": "data",
+      "expected_skill": "data/community-user-data-migration",
+      "top_k": 3
+    },
+    {
+      "query": "import portal users Experience Cloud user insert fails ContactId",
+      "domain": "data",
+      "expected_skill": "data/community-user-data-migration",
+      "top_k": 3
+    },
+    {
+      "query": "sharing set for Customer Community users to access their own cases portal",
+      "domain": "data",
+      "expected_skill": "data/external-user-data-sharing",
+      "top_k": 3
+    },
+    {
+      "query": "external OWD setup how is it different from internal org-wide default portal users",
+      "domain": "data",
+      "expected_skill": "data/external-user-data-sharing",
+      "top_k": 3
+    },
+    {
+      "query": "High-Volume Portal user cannot access records criteria-based sharing rules not firing",
+      "domain": "data",
+      "expected_skill": "data/external-user-data-sharing",
+      "top_k": 3
+    },
+    {
+      "query": "how do I archive old EmailMessage records from Email-to-Case to free up storage",
+      "domain": "data",
+      "expected_skill": "data/service-data-archival",
+      "top_k": 3
+    },
+    {
+      "query": "how to report on community login activity and page views",
+      "domain": "data",
+      "expected_skill": "data/community-analytics-data",
+      "top_k": 3
+    },
+    {
+      "query": "how do I create a new Experience Cloud site with LWR template",
+      "domain": "admin",
+      "expected_skill": "admin/experience-cloud-site-setup",
+      "top_k": 3
+    },
+    {
+      "query": "gathering requirements for customer portal Experience Cloud",
+      "domain": "admin",
+      "expected_skill": "admin/portal-requirements-gathering",
+      "top_k": 3
+    },
+    {
+      "query": "design self-service help center to reduce support ticket volume",
+      "domain": "admin",
+      "expected_skill": "admin/self-service-design",
+      "top_k": 3
+    },
+    {
+      "query": "how to set up reputation points and gamification in Experience Cloud community",
+      "domain": "admin",
+      "expected_skill": "admin/community-engagement-strategy",
+      "top_k": 3
+    },
+    {
+      "query": "build custom LWC component for Experience Cloud with guest user Apex",
+      "domain": "lwc",
+      "expected_skill": "lwc/experience-cloud-lwc-components",
+      "top_k": 3
+    },
+    {
+      "query": "which Experience Cloud license should I choose Customer Community vs Partner Community",
+      "domain": "architect",
+      "expected_skill": "architect/experience-cloud-licensing-model",
+      "top_k": 3
+    },
+    {
+      "query": "Customer Community vs Partner Community which license do I need",
+      "domain": "architect",
+      "expected_skill": "architect/experience-cloud-licensing-model",
+      "top_k": 3
+    },
+    {
+      "query": "login-based vs member-based Experience Cloud license selection",
+      "domain": "architect",
+      "expected_skill": "architect/experience-cloud-licensing-model",
+      "top_k": 3
+    },
+    {
+      "query": "external user license tier Experience Cloud portal community",
+      "domain": "architect",
+      "expected_skill": "architect/experience-cloud-licensing-model",
+      "top_k": 3
+    }
+  ]
+}

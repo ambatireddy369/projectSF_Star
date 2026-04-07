@@ -1,0 +1,99 @@
+{
+  "category": "admin",
+  "chunk_ids": [
+    "001e37f78799a323d1d9",
+    "05aadab7b6326cfa98af",
+    "092e818104fce89d8a10",
+    "0a64ad7a93e210a34ade",
+    "0ad571c2da675c52e4cc",
+    "0e59d56fd98869029c5e",
+    "26fd03f1d88a93a8b6ad",
+    "28bf4c569bab6b892b8a",
+    "2b495524badd01a4bce0",
+    "3455ba6a08d056d0c49a",
+    "3776cd0d24783df17213",
+    "3d86590e1aa1277edf4d",
+    "4050744c036deca5a6cc",
+    "414dcfccf1896b3e2abf",
+    "415fb0210bf8f19a8bc7",
+    "490b33fe8ad7f7a090a6",
+    "4c5a38a9f2e1fc524f0c",
+    "4f119a852cef25573878",
+    "4f50b8fa66b2f28b33ff",
+    "53fac2c1aa8b0722473a",
+    "54a9d08ce01606b72a0a",
+    "566221702e70cedc7fa6",
+    "59d6b9f002cafada1750",
+    "5c78efcaf0027f59783e",
+    "5f2593e22c36b351592d",
+    "5faac9d4cd1381efa87b",
+    "640863548ea97dec9686",
+    "6495084a4bba33b0bf76",
+    "65d46fe9395042bfaa5e",
+    "6b85fcc3789a60871437",
+    "6da24170e38fbd48bfa4",
+    "6fd9637fb9fd43ee7e6e",
+    "797e589d940b02dfbe24",
+    "798a3dc9443c42f4b7aa",
+    "7b5e889f6929dc903699",
+    "85578c8e23cd87cfdaed",
+    "8b97d70800a5d18645ca",
+    "8e66ef5522cb6c8ef003",
+    "8ff5acecbe217d1e065f",
+    "923aa6ec62dad759a1ae",
+    "a124a1d71294f84912cc",
+    "ae321b91f7c926568e31",
+    "af3a15a00f8b028f8a9c",
+    "b0156af7ca8e27c40d92",
+    "c7dd13cece0eae3976dc",
+    "d873e09bb5fcd3c0f095",
+    "e0e039c47b6a8d9c77aa",
+    "e91dcd2f0199d9df77dc",
+    "f3abf5362b11d33164e1",
+    "f52f5994e39de33f49e4",
+    "f7f44c502e73fdde669b"
+  ],
+  "content_hash": "47aaac2a53171e6a6e8924e48698a56850bad36e1a9566d23c0d58470e14ea30",
+  "dependencies": [],
+  "description": "Use when planning, reviewing, or troubleshooting Salesforce data imports, migrations, and bulk updates. Triggers: 'Data Loader', 'Data Import Wizard', 'Bulk API', 'upsert', 'cutover', 'load failed', 'reconcile data'. NOT for ongoing integration architecture - use integration/ skills for that.",
+  "file_location": "skills/admin/data-import-and-management",
+  "id": "admin/data-import-and-management",
+  "inputs": [
+    "source data files",
+    "load sequence",
+    "automation constraints"
+  ],
+  "name": "data-import-and-management",
+  "official_sources": [
+    "Salesforce Well-Architected Overview \u2014 reliability framing for large data change plans",
+    "Object Reference \u2014 object semantics and relationships that affect load design",
+    "REST API Developer Guide \u2014 API-oriented load and integration behavior context"
+  ],
+  "outputs": [
+    "load plan",
+    "data load findings",
+    "reconciliation checklist"
+  ],
+  "references": [
+    "skills/admin/data-import-and-management/references/examples.md",
+    "skills/admin/data-import-and-management/references/gotchas.md",
+    "skills/admin/data-import-and-management/references/llm-anti-patterns.md",
+    "skills/admin/data-import-and-management/references/well-architected.md"
+  ],
+  "scripts": [
+    "skills/admin/data-import-and-management/scripts/check_load_plan.py"
+  ],
+  "tags": [
+    "data-load",
+    "migration",
+    "bulk-api",
+    "upsert",
+    "external-id"
+  ],
+  "templates": [
+    "skills/admin/data-import-and-management/templates/data-load-plan-template.md"
+  ],
+  "updated": "2026-03-13",
+  "vector_embedding": null,
+  "version": "1.0.0"
+}
