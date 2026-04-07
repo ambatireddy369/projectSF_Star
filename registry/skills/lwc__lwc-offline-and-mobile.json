@@ -1,0 +1,95 @@
+{
+  "category": "lwc",
+  "chunk_ids": [
+    "05c2348de2b5e57116c9",
+    "082ad9157c5909abdeb6",
+    "0bab8b95ee7e83162872",
+    "109a204fece16bbf3f74",
+    "128fa121742d069574c1",
+    "15c398d3b401bf551910",
+    "24c38e2d1fa7d53f6da1",
+    "2592a51cf9845bf331c4",
+    "274e12778cc4e634eac2",
+    "29cd210d93a1d36e1121",
+    "2a396cca753b4644b712",
+    "360604d49178028db6b4",
+    "3de99ef3363826960f9a",
+    "4a518ae275091f725ac0",
+    "4d33d4d5848371f5fcfa",
+    "5043a3ad000da398cf3f",
+    "595916e45ea3e18983fb",
+    "599faca0fa93ccbc2140",
+    "59f74c64e0a67b4a8399",
+    "6028143021f7f2a0eb8d",
+    "647b897b778ea750a208",
+    "682a82b775ce20952295",
+    "776bc22dc42396458d7d",
+    "77b5fa995294e0c4cb18",
+    "7ea5a8aaa8eb0a1c3880",
+    "8c93f279156f6520791a",
+    "9f9367249bea33417e3c",
+    "a3b697f3f709ae9534cf",
+    "a3b77b3f9f24c24f6676",
+    "a48126f5ebdf80951c6e",
+    "aee75d151aadcd660027",
+    "b3121be1752595c2b148",
+    "b4888886d213c8bebcb0",
+    "b4ca383cac5788ffbea5",
+    "b4dc6e39ae39575d151a",
+    "b7ad7f818a8b9e6cc873",
+    "c6f0f531d69b13c9b624",
+    "d149bd3c5fbdfbbb4404",
+    "d43854160d80a008e6d2",
+    "d55389a22718545f3cf9",
+    "d98963293abe5cb81497",
+    "e314e21e52b4a2c04f22",
+    "e544ae8c60bb82badcc2",
+    "e9916928a42743810b3f",
+    "eaeca04eca84bb715e9f",
+    "ed8341ae75454d93b8e4",
+    "eff7d6f5f720e5258d72"
+  ],
+  "content_hash": "c22ecd9ede5f217e6e4277e818e459b666dee7ff8808077680cd5c33c7e09c53",
+  "dependencies": [],
+  "description": "Use when designing or reviewing Lightning Web Components for the Salesforce mobile app, mobile device capabilities, or offline-aware behavior. Triggers: 'lightning/mobileCapabilities', 'mobile lwc', 'offline lwc', 'supported mobile app only', 'barcode scanner availability'. NOT for Mobile SDK or fully native app architecture unless the decision is whether LWC in the Salesforce mobile app is sufficient.",
+  "file_location": "skills/lwc/lwc-offline-and-mobile",
+  "id": "lwc/lwc-offline-and-mobile",
+  "inputs": [
+    "target container such as salesforce mobile app, desktop, or experience cloud",
+    "which device capabilities or offline behaviors are required",
+    "whether the component depends on apex, ui api, or local-first interaction"
+  ],
+  "name": "lwc-offline-and-mobile",
+  "official_sources": [
+    "`lightning/mobileCapabilities` Module \u2014 https://developer.salesforce.com/docs/platform/lwc/guide/reference-lightning-mobilecapabilities.html",
+    "LWC Best Practices \u2014 https://developer.salesforce.com/docs/platform/lwc/guide/get-started-best-practices.html",
+    "Salesforce Mobile App Overview \u2014 https://help.salesforce.com/s/articleView?id=sf.salesforce1_overview.htm&type=5"
+  ],
+  "outputs": [
+    "mobile/offline implementation recommendation",
+    "review findings for capability checks and stale-state handling",
+    "decision on lwc in mobile app vs a different mobile architecture"
+  ],
+  "references": [
+    "skills/lwc/lwc-offline-and-mobile/references/examples.md",
+    "skills/lwc/lwc-offline-and-mobile/references/gotchas.md",
+    "skills/lwc/lwc-offline-and-mobile/references/llm-anti-patterns.md",
+    "skills/lwc/lwc-offline-and-mobile/references/well-architected.md"
+  ],
+  "scripts": [
+    "skills/lwc/lwc-offline-and-mobile/scripts/check_lwc_offline_and_mobile.py"
+  ],
+  "tags": [
+    "mobile-lwc",
+    "offline",
+    "mobilecapabilities",
+    "salesforce-mobile-app",
+    "device-apis"
+  ],
+  "templates": [
+    "skills/lwc/lwc-offline-and-mobile/templates/lwc-offline-and-mobile-template.md"
+  ],
+  "updated": "2026-03-13",
+  "vector_embedding": null,
+  "version": "1.0.0"
+}
